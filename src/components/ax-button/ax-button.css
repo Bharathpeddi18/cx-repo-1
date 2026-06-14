@@ -1,0 +1,132 @@
+.ax-btn {
+  --ax-btn-bg: transparent;
+  --ax-btn-color: #000000;
+  --ax-btn-border: transparent;
+  --ax-btn-focus: rgba(0, 0, 0,  0.8);
+
+  border: 1px solid var(--ax-btn-border-color);
+  background: var(--ax-btn-bg-color);
+  color: var(--ax-btn-fg-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease,
+    transform 120ms ease;
+}
+
+.ax-btn:hover:not(:disabled) {
+  background: var(--ax-btn-bg-color);
+  border-color: 1px solid var(--ax-btn-border-color);
+  color: var(--ax-btn-fg-color);
+}
+
+.ax-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.ax-btn:focus-visible {
+  outline: 2px solid var(--ax-btn-focus);
+  outline-offset: 2px;
+}
+
+.ax-btn:disabled,
+.ax-btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.58;
+  transform: none;
+}
+
+.ax-btn--xs {
+  min-height: 1.75rem;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.75rem;
+}
+
+.ax-btn-sm {
+  min-height: 2rem;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.ax-btn-md {
+  min-height: 2.5rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.9375rem;
+}
+
+.ax-btn-lg {
+  min-height: 3rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+}
+
+.ax-btn-xl {
+  min-height: 3.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1.0625rem;
+}
+
+.ax-btn-radius-none {
+  border-radius: 0;
+}
+
+.ax-btn-radius-sm {
+  border-radius: 0.25rem;
+}
+
+.ax-btn-radius-md {
+  border-radius: 0.5rem;
+}
+
+.ax-btn-radius-lg {
+  border-radius: 0.75rem;
+}
+
+.ax-btn-radius-rounded {
+  border-radius: 50%;
+}
+
+.ax-btn-solid {
+  /* --ax-btn-bg: ;
+  --ax-btn-color: ;
+  --ax-btn-border: ;
+  --ax-btn-focus: ; */
+}
+
+.ax-btn-outline {
+   /* --ax-btn-bg: ;
+  --ax-btn-color: ;
+  --ax-btn-border: ;
+  --ax-btn-focus: ; */
+}
+
+
+.ax-btn-text {
+   /* --ax-btn-bg: ;
+  --ax-btn-color: ;
+  --ax-btn-border: ;
+  --ax-btn-focus: ; */
+}
+
+.ax-btn-link {
+  /* --ax-btn-bg: ;
+  --ax-btn-color: ;
+  --ax-btn-border: ;
+  --ax-btn-focus: ; */
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}

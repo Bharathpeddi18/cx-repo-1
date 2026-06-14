@@ -1,0 +1,23 @@
+:root{
+    --ax-app-nav-expanded-width: 240px;
+    --ax-app-nav-collapsed-width: 60px;
+
+    --ax-app-header-height: 60px;
+    --ax-app-footer-height: 25px;
+
+    --ax-app-theme-nav-bg-color: var(--ax-color-primary);
+    --ax-app-theme-nav-item-bg-color: var(--ax-active-primary);
+    --ax-app-theme-nav-item-fg-color: var(--ax-light-primary);
+
+
+    --ax-color-primary:  #2C376D;
+    --ax-hover-primary: #3F4FA3;
+    --ax-active-primary: #35458F;
+    --ax-light-primary: #E9ECFB;
+    --ax-border-primary: #C8D0F4;
+
+    --ax-color-success: #16A34A;
+    --ax-color-warning: #F59E0B;
+    --ax-color-danger: #DC2626;
+    --ax-color-info: #0EA5E9;
+}

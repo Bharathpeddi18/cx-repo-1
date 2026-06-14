@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cheetah x</string>
+    <string name="title_activity_main">cheetah x</string>
+    <string name="package_name">com.cheetahx.bharathdevelopment</string>
+    <string name="custom_url_scheme">com.cheetahx.bharathdevelopment</string>
+</resources>
